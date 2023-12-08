@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp12629830.jpg');
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.signin-place{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+   }
+.signin-form{
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 0px 40px;
+    background-color: white;
+}
+.signin-form img{
+    height: 25px;
+}
+::placeholder{
+    color: red;
+}
+input[type=email]{
+    padding: 10px;
+    border-color: green;
+    border-radius: 5px 15px;
+    background:#00800042;
+    border-style: outset;
+}
+input[type=email]:hover{
+    box-shadow: 3px 3px green;
+}
+.signin-form a button{
+    width: -webkit-fill-available;
+    padding: 5px;
+    background: #88e3f7;
+    color: black;
+    border-radius: 20px 5px;
+    border-style: outset;
+    font-weight: bolder;
+    border-color: darkcyan;
+}
+.signin-form a button:hover{
+    box-shadow: 2px 2px blue;
+}
