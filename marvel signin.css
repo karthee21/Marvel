@@ -31,7 +31,7 @@ input[type=email]{
 input[type=email]:hover{
     box-shadow: 3px 3px green;
 }
-.signin-form a button{
+.signin-form button{
     width: -webkit-fill-available;
     padding: 5px;
     background: #88e3f7;
@@ -40,6 +40,9 @@ input[type=email]:hover{
     border-style: outset;
     font-weight: bolder;
     border-color: darkcyan;
+}
+.signin-form button a{
+    text-decoration: none;
 }
 .signin-form a button:hover{
     box-shadow: 2px 2px blue;

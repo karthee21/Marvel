@@ -17,11 +17,13 @@ body{
     padding-top: 7%;
     border-right: 1px solid gray;
 }
-.join h3{
+.join div span a{
+    text-decoration: none;
+}
+.join div span a h3{
     margin: 0;
     display: inline;
     font-style: italic;
-    text-decoration: none;
     color: white;
 }
 .logo{
@@ -78,6 +80,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:first-child:hover{
     box-shadow: 0px 0px 20px #80ff80;
 }
 .header-bottom a:nth-child(2){
@@ -86,6 +91,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:nth-child(2):hover{
     box-shadow: 0px 0px 20px rgb(156 156 255);
 }
 .header-bottom a:nth-child(3){
@@ -94,6 +102,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:nth-child(3):hover{
     box-shadow: 0px 0px 20px orange;
 }
 .header-bottom a:nth-child(4){
@@ -102,6 +113,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:nth-child(4):hover{
     box-shadow: 0px 0px 20px #ff7878;
 }
 .header-bottom a:nth-child(5){
@@ -110,6 +124,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:nth-child(5):hover{
     box-shadow: 0px 0px 20px yellow;
 }
 .header-bottom a:last-child{
@@ -118,6 +135,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     border-style: outset;
+    
+}
+.header-bottom a:nth-child(6):hover{
     box-shadow: 0px 0px 20px #ff6eff;
 }
 .relese{
@@ -175,6 +195,11 @@ body{
 .tony div img{
     width: 100%;
 }
+/* .tony div:last-child:hover{
+    background-image: url(https://media1.giphy.com/media/7OEje1TMS7hCw/giphy.webp?cid=ecf05e47epfbbqxf3wg8d5abgecqbfnno4bzigx8voe6ceau&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-size:100% ;
+    visibility: hidden;
+} */
  /*       THOR      */
 .thor{
     height: 600px;
