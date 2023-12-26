@@ -194,12 +194,17 @@ body{
 }
 .tony div img{
     width: 100%;
+    
 }
-/* .tony div:last-child:hover{
-    background-image: url(https://media1.giphy.com/media/7OEje1TMS7hCw/giphy.webp?cid=ecf05e47epfbbqxf3wg8d5abgecqbfnno4bzigx8voe6ceau&ep=v1_gifs_search&rid=giphy.webp&ct=g);
-    background-size:100% ;
-    visibility: hidden;
-} */
+.tony div img:hover{
+    visibility: collapse;
+    transition: all 0.1s;
+}
+.tony div:last-child:hover{
+    background-image: url(https://media.tenor.com/astLdVdmbTYAAAAM/iron-man-iron-man2.gif);
+    background-size:130%;
+    
+}
  /*       THOR      */
 .thor{
     height: 600px;
@@ -220,6 +225,15 @@ body{
 .thor div img{
     width: 100%;
 }
+.thor div img:hover{
+    visibility: collapse;
+    transition: all 0.1s;
+}
+.thor div:first-child:hover{
+    background-image: url(https://media4.giphy.com/media/JVaGIHrnC4Xi9DBPwr/200w.webp?cid=ecf05e477ecoy3cpx8im8wez8qlkqy33k6s93y7l7waa9xs2&ep=v1_gifs_search&rid=200w.webp&ct=g);
+    background-size:130%;
+    
+}
 /*       CAPTAIN       */
 .Steve{
     height: 600px;
@@ -239,6 +253,15 @@ body{
 }
 .Steve div img{
     width: 100%;
+}
+.Steve div img:hover{
+    visibility: collapse;
+    transition: all 0.1s;
+}
+.Steve div:last-child:hover{
+    background-image: url(https://media2.giphy.com/media/dv01JuAyGK11zZKRv5/200w.webp?cid=ecf05e471p91ly8ulrxebcazavbsb2mx2uwhw7acepnya8mh&ep=v1_gifs_search&rid=200w.webp&ct=g);
+    background-size:130%;
+    
 }
 /*   UPCOMING MOVIES    */
 .upcoming{

@@ -11,9 +11,9 @@ body {
    }
 .signin-form{
     padding: 30px;
-    border: 2px solid red;
+    border: 1px solid darkgreen;
     border-radius: 0px 40px;
-    background-color: white;
+    backdrop-filter: blur(10px);
 }
 .signin-form img{
     height: 25px;
@@ -44,6 +44,6 @@ input[type=email]:hover{
 .signin-form button a{
     text-decoration: none;
 }
-.signin-form a button:hover{
+.signin-form button:hover{
     box-shadow: 2px 2px blue;
 }
